@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/866575154.svg)](https://doi.org/10.5281/zenodo.13881896)
+
+
 # getGenDist
 This Python script computes the genetic distance between two strains using a distance matrix formatted for Phylip. It also performs k-means clustering to group strains based on their distances from a reference strain.
 
