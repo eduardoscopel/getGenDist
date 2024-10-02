@@ -6,15 +6,18 @@ This Python script computes the genetic distance between two strains using a dis
 
 # Usage
 
-python getGenDist.py -i <infile> -a <strain1> -b <strain2> -r <ref> -k <clusters> -s <seed>
+`python getGenDist.py -i <infile> -a <strain1> -b <strain2> -r <ref> -k <clusters> -s <seed>`
+
+```
 Options
--i, --infile: Input genetic distance matrix (required)
+-i, --infile: Input genetic distance matrix (required) 
 -a, --strain1: Name of the first strain (required)
 -b, --strain2: Name of the second strain (required)
 -r, --ref: Name of the reference strain (required)
 -k, --clusters: Number of bins for clustering
 -s, --seed: Random seed for sampling
 -h, --help: Display help information
+```
 
 # Description
 
