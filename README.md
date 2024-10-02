@@ -2,21 +2,18 @@
 
 
 # getGenDist
-This Python script computes the genetic distance between strains using a distance matrix formatted for Phylip. It also performs k-means clustering to group strains based on their distances from a reference strain.
-
-# Genetic Distance Calculator
-This Python script computes the genetic distance between two strains using a distance matrix formatted for Phylip. It also performs k-means clustering to group strains based on their distances from a reference strain.
+This Python script computes the genetic distance between taxa using a distance matrix obtained from Phylip. It then performs k-means clustering to group pairs of taxa based on their distances from a reference taxon (usually the root of a tree).
 
 # Usage
 
-`python getGenDist.py -i <infile> -a <strain1> -b <strain2> -r <ref> -k <clusters> -s <seed>`
+`python getGenDist.py -i <infile> -a <taxon1> -b <taxon2> -r <ref> -k <clusters> -s <seed>`
 
 ```
 Options
 -i, --infile: Input genetic distance matrix (required) 
--a, --strain1: Name of the first strain (required)
--b, --strain2: Name of the second strain (required)
--r, --ref: Name of the reference strain (required)
+-a, --strain1: Name of the first taxon (required)
+-b, --strain2: Name of the second taxon (required)
+-r, --ref: Name of the reference taxon (required)
 -k, --clusters: Number of bins for clustering
 -s, --seed: Random seed for sampling
 -h, --help: Display help information
@@ -24,7 +21,7 @@ Options
 
 # Description
 
-The script reads a genetic distance matrix, retrieves the distances between the specified strains, and utilizes Jenks natural breaks to cluster strains based on their genetic distance from the reference strain.
+The script reads a Phylip genetic distance matrix, retrieves the distances between the specified taxa, and utilizes Jenks natural breaks to cluster taxa based on their genetic distance from the reference taxon.
 
 # Dependencies
 
