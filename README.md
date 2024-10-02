@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/866575154.svg)](https://doi.org/10.5281/zenodo.13881896)
+[![DOI](https://zenodo.org/badge/866575154.svg)](https://doi.org/10.5281/zenodo.13881957)
 
 
 # getGenDist
